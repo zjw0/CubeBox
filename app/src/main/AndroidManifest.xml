@@ -13,9 +13,12 @@
         android:theme="@style/Theme.CubeBox"
         tools:targetApi="31">
         <activity
+            android:name=".box.BoxActivity"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
             android:theme="@style/Theme.CubeBox">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
